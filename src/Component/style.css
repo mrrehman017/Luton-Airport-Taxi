@@ -1,0 +1,1835 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/geomanist');
+
+.header_section {
+    background-color: #fff;
+    background-image: url(../assets/Images/BG-2\ 1.png);
+}
+
+.header_log {
+    padding-top: 30px;
+}
+
+.navbar {
+    padding-top: 37px;
+}
+
+.nav-link {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #8684AB;
+}
+
+.nav-link:hover {
+    color: #F12797;
+}
+
+.active {
+    color: #F12797;
+}
+
+.mobile_menu {
+    display: none;
+}
+
+.mobile_menu_active {
+    display: block;
+}
+
+.hamburger {
+    display: none;
+}
+
+/* --------------------------------------- BANNER START --------------------------------- */
+.heder_title_Section {
+    padding: 109px 0px 0px 0px;
+}
+
+.brandTitle>span {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+    color: #F12797;
+}
+
+.brandTitle>p {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 130%;
+    color: #181458;
+}
+
+.branTitleMain>img {
+    height: 40%;
+    width: 20%;
+    opacity: 70%;
+}
+
+.brandofer>p {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #181458;
+}
+
+.brandofer>p span {
+    color: #F12797;
+}
+
+.bankCard {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    color: #DEDEDE;
+    width: 90%;
+}
+
+.bookingForm {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px #CFCFED;
+    border-radius: 12px;
+    margin-top: 60px;
+}
+
+.css-8atqhb {
+    padding: 30px 40px;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    font-family: 'Geomanist' !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 16px !important;
+    color: #181458 !important;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+}
+
+.css-19kzrtu {
+    padding: 24px 0px !important;
+}
+
+.From_section {
+    display: flex;
+    align-items: center;
+}
+
+.Set_location {
+    margin-left: 12px;
+}
+
+.Set_location>span {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(24, 20, 88, 0.6);
+}
+
+.Set_location>p {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #181458;
+    margin-bottom: 0px;
+}
+
+.From_section::after {
+    content: '';
+    background-color: #DCDCEA;
+    width: 0px;
+    height: 80.39px;
+    display: inline-block;
+    border: 1px solid #DCDCEA;
+    margin-left: 70px;
+}
+
+button[disabled] {
+    color: rgba(24, 20, 88, 0.6) !important;
+}
+
+.Date_time>span {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(24, 20, 88, 0.6);
+    margin-bottom: 14px;
+}
+
+.show_date_Time {
+    display: flex;
+    align-items: center;
+}
+
+.show_date_Time>h5 {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    color: #181458;
+    margin-bottom: 0px;
+}
+
+.show_date_Time>p {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(24, 20, 88, 0.6);
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.dateTimeMain::after {
+    content: '';
+    background-color: #DCDCEA;
+    width: 0px;
+    height: 80.39px;
+    display: inline-block;
+    border: 1px solid #DCDCEA;
+    margin-left: 70px;
+}
+
+.dateTimeMain {
+    display: flex;
+    align-items: center;
+}
+
+.searchBtns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.via_btn {
+    box-sizing: border-box;
+    width: 72px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCEA;
+    border-radius: 4px;
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(24, 20, 88, 0.6);
+}
+
+.returnBtn {
+    box-sizing: border-box;
+    width: 124px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCEA;
+    border-radius: 4px;
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(24, 20, 88, 0.6);
+}
+
+.searchBtn {
+    width: 80px;
+    height: 80.39px;
+    border: none;
+    background: #4699FB;
+    border-radius: 4px;
+}
+
+.searchBtn svg {
+    color: #FFFFFF;
+    font-size: 23px;
+    font-weight: 400 !important;
+}
+
+
+
+/* --------------------------------------- BANNER END --------------------------------- */
+
+/* ---------------------------- OUR JOURNEY START ------------------------- */
+
+.journey_section_heading {
+    width: 40%;
+    display: flex;
+    margin: 150px auto 60px auto;
+}
+
+.journey_section_heading>p {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #181458;
+}
+
+.journey_section_heading>p span {
+    color: #F12797;
+}
+
+.cardMain {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.cardMainBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
+.cardImage {
+    width: 32%;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.cardImage>img {
+    width: 100%;
+    height: auto;
+}
+
+.cardTitle {
+    width: 53%;
+}
+
+.cardTitle>p {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #181458;
+    margin-bottom: 12px;
+}
+
+.cardDescription {
+    width: 85%;
+}
+
+.cardDescription>p {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #74729B;
+    margin-bottom: 0px;
+}
+
+/* ---------------------------- OUR JOURNEY END ------------------------- */
+
+/* ----------------------------- TEXI TRANSFER SECTION START _______________________------------- */
+.texitransfersection {
+    margin-top: -140px;
+    background-color: #fff;
+    background-image: url(../assets/Images/AboutBG.png);
+}
+
+.TexiTransferMain {
+    margin: 250px 0px 175px 0px;
+    width: 79%;
+}
+
+.texiTransferHeading>p {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    text-transform: capitalize;
+    color: #181458;
+    margin-bottom: 20px;
+}
+
+.texiTransferHeading>p span {
+    color: #F12797;
+}
+
+.texiTransfertitle>p {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 170%;
+    color: #74729B;
+    margin-bottom: 30px;
+}
+
+.texiTransferdescription>p {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: #74729B;
+    margin-bottom: 60px;
+}
+
+.TexiTransferMain>button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 20px 16px 32px;
+    gap: 12px;
+    background: #4699FB;
+    border-radius: 8px;
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.TexiTransferMain>button svg {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* ----------------------------- TEXI TRANSFER SECTION END _______________________------------- */
+
+
+/* ------------------------- ABOUT US START ---------------------- */
+
+
+
+/* ------------------------- SLIDER START ---------------------- */
+
+.swiper {
+    width: 100%;
+    height: 150%;
+    /* margin-bottom: 120px; */
+    /* overflow: visible !important; */
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-next {
+    position: absolute !important;
+    top: 95% !important;
+    right: 45% !important;
+    left: auto !important;
+    background-image: url(../assets/Images/icons8-right-100W.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 12px;
+    width: 48px !important;
+    height: 48px !important;
+    left: 45%;
+    top: 3338px;
+    border: 1px solid #4699FB;
+    border-radius: 8px;
+    background-color: #4699FB;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev {
+    position: absolute !important;
+    top: 95% !important;
+    left: 45% !important;
+    right: auto !important;
+    background-image: url(../assets/Images/icons8-left-100.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 12px;
+    width: 48px !important;
+    height: 48px !important;
+    left: 45%;
+    border: 1px solid #8684AB;
+    border-radius: 8px;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+
+
+/* ------------------------- SLIDER End ---------------------- */
+
+.about_us_Main {
+    width: 40%;
+    margin: 0px auto 0px auto;
+}
+
+.about_us_Main>p {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #181458;
+    margin-bottom: -10px;
+}
+
+.about_us_Main>p span {
+    color: #F12797;
+}
+
+.card {
+    background: #FFFFFF;
+    border: 1px solid #8684AB;
+    border-radius: 10px;
+    padding: 30px 24px;
+}
+
+.cardImg {
+    width: 33%;
+    height: auto;
+    margin: 0px auto 24px auto;
+}
+
+.cardImg>img {
+    width: 100%;
+    height: auto;
+}
+
+.cardName>p {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: #4699FB;
+    margin-bottom: 4px;
+}
+
+.cardContent>p {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    color: #74729B;
+    margin-bottom: 10px;
+}
+
+.cardDetails {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.cardDetails>p {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #74729B;
+    margin-bottom: 0px;
+}
+
+.MuiRating-icon>svg {
+    width: 16px;
+    height: 16px;
+    /* background-color: #FBBC04; */
+    color: #FBBC04;
+}
+
+/* ------------------------- ABOUT US END ---------------------- */
+
+
+/* ----------------------------NewsArticalSEction START ----------------------- */
+
+.NewsArticalSEction {
+    margin: 300px 0px 130px 0px;
+}
+
+.newsHeading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.newsHeading>p {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    text-transform: capitalize;
+    color: #F12797;
+    margin-bottom: 0px;
+}
+
+.newsHeading>p span {
+    color: #181458;
+}
+
+.newsImag>img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+}
+
+.dateAndAdminNew {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.dateAndAdminNew>p {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #74729B;
+    margin-bottom: 0px;
+}
+
+.dateAndAdminNew>p>span::after {
+    content: "";
+    background-color: #74729B;
+    width: 6px;
+    height: 6px;
+    display: inline;
+    border: 100%;
+    margin: 0px 6px;
+}
+
+.dateAndAdminNew>span {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    color: #F12797;
+    margin-bottom: 0px;
+}
+
+.NewDriverName {
+    margin-bottom: 16px;
+}
+
+.NewDriverName>p {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #181458;
+    margin-bottom: 0px;
+}
+
+.newsDescription {
+    margin-bottom: 32px;
+}
+
+.newsDescription>p {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #74729B;
+}
+
+.readmoreNews {
+    margin-bottom: 62px;
+}
+
+.readmoreNews>a {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #8684AB;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.readmoreNews>a:hover {
+    color: #8684AB;
+}
+
+.readmoreNews>a.active {
+    text-decoration: none;
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #4699FB;
+    margin-bottom: 0px;
+}
+
+.readmoreNews>a.active:hover {
+    color: #4699FB;
+}
+
+.readmoreNews>a>svg {
+    margin-left: 20px !important;
+    font-size: 13px;
+}
+
+.viewALLbtn>button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 20px 16px 32px;
+    gap: 12px;
+    border: 2px solid #4699FB;
+    border-radius: 8px;
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #4699FB;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px auto;
+}
+
+.viewALLbtn>button:hover {
+    background-color: #4699FB;
+    color: #FFFFFF;
+}
+
+.viewALLbtn>svg {
+    background: #4699FB;
+}
+
+/* ----------------------------NewsArticalSEction END ----------------------- */
+
+/* --------------------------- FOooter START __---------------------------- */
+
+.footermainSection {
+    background-color: #fff;
+    background-image: url(../assets/Images/Footer\ BG.png);
+}
+
+footer .container {
+    padding: 80px 0px 0px 0px;
+}
+
+footer .container::after {
+    content: '';
+    background-color: #F12797;
+    height: 1px;
+    width: 1200px;
+    display: block;
+    margin: 25px auto 0px auto;
+    opacity: 0.3;
+}
+
+.footerLOGO {
+    text-decoration: none;
+}
+
+.footerLOGO>img {
+    margin-bottom: 23px;
+    text-decoration: none;
+}
+
+.footerLOGO>p {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #181458;
+    text-decoration: none;
+}
+
+.footerADDress {
+    margin-bottom: 40px;
+}
+
+.footerADDress>p {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #74729B;
+    margin-bottom: 0px;
+}
+
+.footerSocialIcon a {
+    text-decoration: none;
+    color: #74729B;
+    font-size: 18px;
+}
+
+.footerSocialIcon a svg:hover {
+    color: #F12797;
+}
+
+.footerSocialIcon .active svg {
+    color: #F12797;
+}
+
+.footerSocialIcon svg {
+    margin-right: 27px;
+    color: #74729B;
+
+}
+
+.footerList {
+    width: 90%;
+    margin: 0px 0px 0px auto;
+}
+
+.footerListOne {
+    width: 70%;
+    margin: 0px 0px 0px auto;
+}
+
+.footerListHeading>p {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #181458;
+}
+
+.footerListMenu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 15px !important;
+}
+
+.footerListMenu ul .nav-link-footer {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #74729B;
+    text-decoration: none;
+    padding: 0px 0px 24px 0px;
+}
+
+.footerListMenu ul .nav-link-footer:hover {
+    color: #F12797;
+}
+
+.footerListMenu ul li {
+    list-style: none;
+}
+
+.IconNumberFooter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.IconNumberFooter>svg {
+    color: #F12797;
+    font-size: 23px;
+}
+
+.footerNumbers a {
+    display: block;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #74729B;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footerNumbers a:hover {
+    color: #F12797;
+}
+
+.iconMail {
+    display: flex;
+    align-items: center;
+}
+
+.iconMail>svg {
+    color: #F12797;
+    font-size: 23px;
+}
+
+.footerMail a {
+    display: block;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #74729B;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footerMail a:hover {
+    color: #F12797;
+}
+
+/* ------------------------------ COPYRIGHT START ------------------------- */
+.copyrightMain {
+    padding: 30px 0px;
+}
+
+.copyrightMain>p {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    color: #8684AB;
+    margin-bottom: 0px;
+}
+
+
+
+/* --------------------------- FOooter END __---------------------------- */
+
+
+
+/* =========================== MEDIA QUERY ======================== */
+
+@media(max-width : 1366px) {
+
+    /* ----------------------- Header START --------------------  */
+    .header_log>img {
+        width: 100%;
+    }
+
+    .navbar {
+        padding-top: 35px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .dateTimeMain::after {
+        margin-left: 40px;
+    }
+
+    .searchBtn {
+        width: 60px;
+        height: 60px;
+    }
+
+    .searchBtns {
+        margin-top: 12px;
+    }
+
+    /* ----------------------- Header END --------------------  */
+    .cardMain {
+        height: 100%;
+    }
+
+    .cardTitle {
+        width: 64%;
+    }
+
+    .TexiTransferMain {
+        width: 90%;
+    }
+
+    .cardDetails {
+        width: 100%;
+    }
+
+    .swiper-button-prev {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .swiper-button-next {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    footer .container::after {
+        width: 1000px;
+    }
+}
+
+@media(max-width : 1250px) {
+    .ms-5 {
+        margin-left: 5rem !important;
+    }
+
+    .brandTitle>span {
+        font-size: 55px;
+    }
+
+    .brandTitle>p {
+        font-size: 55px;
+    }
+
+    .texiTransferdescription>p {
+        font-size: 16px;
+    }
+
+    .NewDriverName>p {
+        font-size: 22px;
+    }
+
+    .newsDescription>p {
+        font-size: 16px;
+    }
+
+    .footerListMenu ul .nav-link-footer {
+        font-size: 16px;
+    }
+
+    .footerADDress>p {
+        font-size: 16px;
+    }
+
+    .footerNumbers a {
+        font-size: 16px;
+    }
+
+    .footerMail a {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 1199px) {
+    .nav-link {
+        font-size: 14px;
+    }
+
+    .brandTitle>span {
+        font-size: 52px;
+    }
+
+    .brandTitle>p {
+        font-size: 48px;
+    }
+
+    .brandofer>p {
+        font-size: 17px;
+    }
+
+    .From_section::after {
+        margin-left: 0px;
+    }
+
+    .Set_location>p {
+        font-size: 14px;
+    }
+
+    .dateTimeMain::after {
+        margin-left: 15px;
+    }
+
+    .via_btn {
+        width: 60px;
+        height: 40px;
+    }
+
+    .returnBtn {
+        width: 110px;
+        height: 40px;
+    }
+
+    .show_date_Time>h5 {
+        font-size: 25px;
+    }
+
+    .show_date_Time>p {
+        font-size: 14px;
+    }
+
+    .journey_section_heading>p {
+        font-size: 35px;
+    }
+
+    .cardTitle {
+        width: 80%;
+    }
+
+    .cardTitle>p {
+        font-size: 18px;
+    }
+
+    .cardDescription>p {
+        font-size: 14px;
+    }
+
+    .texiTransferHeading>p {
+        font-size: 35px;
+    }
+
+    .texiTransfertitle>p {
+        font-size: 20px;
+    }
+
+    .TexiTransferMain>button {
+        padding: 14px 20px 14px 23px;
+    }
+
+    .TexiTransferMain {
+        margin: 250px 0px 165px 0px;
+    }
+
+    .about_us_Main>p {
+        font-size: 35px;
+    }
+
+    .about_us_Main {
+        margin: 0px auto 25px auto;
+    }
+
+    .swiper-slide {
+        height: 75%;
+    }
+
+    .swiper-button-prev {
+        top: 95% !important;
+    }
+
+    .swiper-button-next {
+        top: 95% !important;
+    }
+
+    .swiper-slide {
+        height: 90%;
+    }
+
+    .swiper {
+        height: 140%;
+    }
+
+    .NewsArticalSEction {
+        margin: 230px 0px 130px 0px;
+    }
+
+    .newsHeading>p {
+        font-size: 35px;
+    }
+
+    .dateAndAdminNew {
+        width: 95%;
+    }
+
+    .dateAndAdminNew>p {
+        font-size: 12px;
+    }
+
+    .dateAndAdminNew>span {
+        font-size: 12px;
+    }
+
+    .newsImag>img {
+        width: 95%;
+    }
+
+    .NewDriverName>p {
+        font-size: 20px;
+    }
+
+    .newsDescription>p {
+        font-size: 14px;
+    }
+
+    .readmoreNews>a {
+        font-size: 14px;
+    }
+
+    .readmoreNews>a.active {
+        font-size: 14px;
+    }
+
+    .viewALLbtn>button {
+        padding: 14px 20px 14px 25px;
+    }
+
+    .footerLOGO {
+        width: 100%;
+    }
+
+    .footerLOGO>img {
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+
+    .footerLOGO>p {
+        font-size: 20px;
+    }
+
+    .footerADDress>p {
+        font-size: 14px;
+    }
+
+    .footerListHeading>p {
+        font-size: 20px;
+    }
+
+    .footerListMenu ul .nav-link-footer {
+        font-size: 14px;
+    }
+
+    .footerNumbers a {
+        font-size: 14px;
+    }
+
+    .footerMail a {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 1024px) {
+    footer .container::after {
+        width: 700px;
+    }
+    .hamburger {
+        display: block;
+        float: right;
+        margin-top: 20px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .mobile_menu_active {
+        position: absolute;
+        height: 100vh;
+        top: 52px;
+        left: auto;
+        width: 50%;
+        right: 0px;
+        background: currentColor;
+    }
+
+    .header_log {
+        width: 100%;
+    }
+
+    .hamburger>button {
+        border: none;
+        padding: 0px;
+    }
+
+    .hamburger>button>svg {
+        font-size: 35px;
+        color: #F12797;
+    }
+    .navbarMian{
+        margin-top: 50px;
+    }
+    .navbarMian .nav-link{
+        padding: 20px 0px;
+        text-align: center;
+        color: #fff;
+    }
+    .nav-link:hover {
+        color: #F12797;
+    }
+    
+    .active {
+        color: #F12797;
+    }
+}
+
+@media(max-width: 991px) {
+
+    .ms-5 {
+        margin-left: 0px !important;
+    }
+
+    .From_section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .From_section::after {
+        width: 80.39px;
+        height: 0px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .dateTimeMain::after {
+        display: none;
+    }
+
+    .dateTimeMain {
+        justify-content: center;
+    }
+
+    .dateTimeMainBody {
+        margin-top: 15px;
+    }
+
+    .Date_time {
+        margin: 0px auto;
+        display: flex;
+    }
+
+    .show_date_Time>h5 {
+        font-size: 30px;
+    }
+
+    .show_date_Time>p {
+        font-size: 16px;
+        margin-left: 15px;
+    }
+
+    .css-1aquho2-MuiTabs-indicator {
+        left: 135px !important;
+    }
+
+    .css-heg063-MuiTabs-flexContainer {
+        justify-content: center;
+    }
+
+    .journey_section_heading {
+        width: 55%;
+    }
+
+    .journey_section_heading>p {
+        font-size: 33px;
+    }
+
+    .TexiTransferMain {
+        margin: 250px 0px 100px 0px;
+    }
+
+    .about_us_Main {
+        width: 65%;
+        margin: 80px auto 25px auto;
+    }
+
+    .swiper-button-prev {
+        right: 42% !important;
+    }
+
+    .swiper-button-next {
+        right: 42% !important;
+    }
+
+    .newsHeading>p {
+        font-size: 33px;
+    }
+
+    .NewsArticalSEction {
+        margin: 230px 0px 90px 0px;
+    }
+
+    footer .container {
+        padding: 30px 0px 0px 0px;
+    }
+
+    .footerPartOne {
+        display: flex;
+        justify-content: space-between;
+        /* margin-bottom: 10px; */
+        margin: 30px auto;
+    }
+
+    .footerLOGO {
+        width: 35%;
+    }
+
+    .footerADDress {
+        width: 35%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+        margin-top: 22px;
+    }
+
+    .footerSocialIcon {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .container::after {
+        margin: 0px;
+    }
+
+    .footerListHeading>p {
+        font-size: 17px;
+    }
+
+    .footerListMenu ul .nav-link-footer {
+        padding: 0px 0px 17px 0px;
+    }
+
+    .footerListMenu ul {
+        margin-bottom: 0px;
+    }
+
+    .footerListOne {
+        width: 100%;
+    }
+
+    .footerList {
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+    
+}
+
+@media(max-width: 767px) {
+
+    .nav-link {
+        font-size: 13px;
+    }
+
+    .heder_title_Section {
+        padding: 70px 0px 0px 0px;
+    }
+
+    .brandTitle>span {
+        font-size: 48px;
+    }
+
+    .brandTitle>p {
+        font-size: 42px;
+    }
+
+    .bankCard {
+        margin-top: 45px;
+        width: 100%;
+    }
+
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+        font-size: 13px !important;
+    }
+
+    .css-1aquho2-MuiTabs-indicator {
+        left: 56px !important;
+        width: 102.766px;
+    }
+
+    .via_btn {
+        width: 42px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .returnBtn {
+        width: 72px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .searchBtn svg {
+        font-size: 15px;
+    }
+
+    .searchBtn {
+        width: 45px;
+        height: 50px;
+    }
+
+    .journey_section_heading {
+        margin: 117px auto 60px auto;
+    }
+
+    .journey_section_heading>p {
+        font-size: 25px;
+    }
+
+    .texiTransferHeading>p {
+        font-size: 30px;
+    }
+
+    .texiTransfertitle>p {
+        font-size: 18px;
+    }
+
+    .texiTransferdescription>p {
+        font-size: 14px;
+    }
+
+    .TexiTransferMain>button svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .TexiTransferMain>button {
+        padding: 12px 18px 12px 20px;
+        font-size: 16px;
+    }
+
+    .about_us_Main>p {
+        font-size: 28px;
+    }
+
+    .card {
+        width: 70%;
+    }
+
+    .cardImg {
+        width: 20%;
+    }
+
+    .cardDetails>p {
+        font-size: 14px;
+    }
+
+    .swiper-button-prev {
+        width: 37px !important;
+        height: 37px !important;
+    }
+
+    .swiper-button-next {
+        width: 37px !important;
+        height: 37px !important;
+    }
+
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: 40% !important;
+        right: auto !important;
+    }
+
+    .newsImag>img {
+        width: 100%;
+    }
+
+    .dateAndAdminNew {
+        width: 100%;
+    }
+
+    .viewALLbtn>button {
+        padding: 13px 11px 13px 15px;
+        font-size: 15px;
+    }
+
+    footer .container::after {
+        width: 400px;
+        margin: 0px auto;
+    }
+
+    .footerPartOne {
+        display: block;
+        margin: 0px;
+    }
+
+    .footerADDress {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .footerSocialIcon {
+        width: 100%;
+        display: block;
+    }
+
+    .footerListHeading>p {
+        margin-bottom: 10px;
+    }
+
+    .footerListMenu ul .nav-link-footer {
+        padding: 0px 0px 12px 0px;
+    }
+
+    .copyrightMain {
+        padding: 20px 0px;
+    }
+
+    .copyrightMain>p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 575px) {
+    .header_log {
+        width: 50%;
+    }
+    .hamburger {
+        margin-top: -37px;
+    }
+    .mobile_menu_active {
+        top: 66px;
+        width: 70%;
+    }
+    .brandTitle>span {
+        font-size: 42px;
+    }
+
+    .brandTitle>p {
+        font-size: 37px;
+    }
+    .bankCard>span{
+        display: none;
+    }
+    .bankCard {
+        margin-top: 45px;
+        width: 89%;
+    }
+
+    .css-1aquho2-MuiTabs-indicator {
+        left: 72px !important;
+    }
+
+    .searchBtns {
+        margin-top: 20px;
+    }
+
+    .Date_time {
+        justify-content: center;
+    }
+
+    .show_date_Time>p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .cardMain {
+        height: 100%;
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .texitransfersection {
+        margin-top: 0px;
+    }
+
+    .TexiTransferMain {
+        margin: 80px auto 70px auto;
+    }
+
+    .texiTransferHeading>p {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .texiTransfertitle>p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .texiTransferdescription>p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .TexiTransferMain>button {
+        padding: 12px 18px 12px 20px;
+        font-size: 16px;
+        margin: 0px auto;
+    }
+
+    .about_us_Main {
+        width: 65%;
+        margin: 80px auto 1px auto;
+    }
+
+    .about_us_Main>p {
+        font-size: 26px;
+    }
+
+    .newsHeading>p {
+        font-size: 30px;
+    }
+
+    .newformobile {
+        justify-content: space-between;
+    }
+
+    .footer_part_one_mobile {
+        width: 235px !important;
+        margin-bottom: 25px;
+        margin-left: 20px;
+    }
+
+    .footer_part_two_mobile {
+        width: 260px !important;
+        margin-bottom: 25px;
+    }
+
+    .footer_part_three_mobile {
+        width: 200px !important;
+        margin-left: 20px;
+    }
+
+    .footer_part_four_mobile {
+        width: 260px !important;
+    }
+}
+@media(max-width: 425px){
+    .css-1aquho2-MuiTabs-indicator {
+        left: 7px !important;
+    }
+    .footermainSection {
+        background-color: #fff;
+        background-image: none; 
+    }
+    .footer_part_one_mobile {
+        width: 100%;
+    }
+    .footer_part_two_mobile {
+        width: 100%;
+        margin-bottom: 25px;
+        margin-left: 20px;
+    }
+    .footer_part_four_mobile {
+        width: 100%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    footer .container::after {
+        width: 300px;
+        margin: 0px auto;
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        left: 37% !important;
+        right: auto !important;
+    }
+}
+@media(max-width: 375px){
+    .branTitleMain>img {
+        display: none;
+    }
+    .brandTitle{
+        width: 100%;
+    }
+    .mobile_menu_active {
+        top: 66px;
+        width: 100%;
+    }
+    .css-1aquho2-MuiTabs-indicator{
+        left: 2px !important;
+    width: 73.062px;
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        left: 34% !important;
+    }
+    .card {
+        width: 90%;
+    }
+}
+@media(max-width: 320px){
+    .bankCard {
+        margin-top: 45px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+        padding: 12px 0px !important;
+    }
+    .css-8atqhb {
+        padding: 30px 15px;
+    }
+    .journey_section_heading>p {
+        font-size: 17px;
+    }
+    .cardMain {
+        height: 100%;
+        width: 100%;
+        margin: 0px auto;
+    }
+    .texiTransferHeading>p {
+        font-size: 22px;
+        text-align: center;
+    }
+    .texiTransfertitle>p {
+        font-size: 12px;
+        text-align: center;
+    }
+    .about_us_Main>p {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .swiper-button-next {
+        right: 37% !important;
+    }
+    .bankCard>span{
+        display: none;
+    }
+    .bankCard a img{
+        margin-bottom: 20px;
+    }
+}
+
+
+

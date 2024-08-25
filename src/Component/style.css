@@ -6,6 +6,21 @@
     background-image: url(../assets/Images/BG-2\ 1.png);
 }
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+    padding-bottom: 20px;
+}
+
 .header_log {
     padding-top: 30px;
 }
@@ -41,6 +56,30 @@
 
 .hamburger {
     display: none;
+}
+
+.mobile_menu {
+    padding: 20px;
+    border-right: 0px;
+    right: -100%;
+    /* transition: all 0.5s;
+    -webkit-transition: all 0.5s; */
+    transition: right 0.3s ease;
+    z-index: 1000;
+}
+
+.cross_btn {
+    width: fit-content;
+    margin-right: 50px;
+    font-size: 30px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0px 10px 0px 0px;
 }
 
 /* --------------------------------------- BANNER START --------------------------------- */
@@ -469,7 +508,7 @@ button[disabled] {
     top: 95% !important;
     right: 45% !important;
     left: auto !important;
-    background-image: url(../assets/Images/icons8-right-100W.png);
+    background-image: url(../assets/Images/icons8-right-100.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
@@ -479,9 +518,9 @@ button[disabled] {
     height: 48px !important;
     left: 45%;
     top: 3338px;
-    border: 1px solid #4699FB;
+    border: 1px solid #8684AB;
     border-radius: 8px;
-    background-color: #4699FB;
+
 }
 
 .swiper-button-next::after {
@@ -493,7 +532,7 @@ button[disabled] {
     top: 95% !important;
     left: 45% !important;
     right: auto !important;
-    background-image: url(../assets/Images/icons8-left-100.png);
+    background-image: url(../assets/Images/icons8-right-100.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
@@ -504,6 +543,14 @@ button[disabled] {
     left: 45%;
     border: 1px solid #8684AB;
     border-radius: 8px;
+    transform: rotate(180deg);
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    background-color: #4699FB;
+    background-image: url(../assets/Images/icons8-right-100W.png);
+    border: 1px solid #fff;
 }
 
 .swiper-button-prev::after {
@@ -701,7 +748,7 @@ button[disabled] {
     margin-bottom: 62px;
 }
 
-.readmoreNews>a {
+.readmoreNews>button {
     font-family: 'Geomanist';
     font-style: normal;
     font-weight: 500;
@@ -710,31 +757,17 @@ button[disabled] {
     text-transform: capitalize;
     color: #8684AB;
     margin-bottom: 0px;
-    text-decoration: none;
+    border: none;
+    background-color: transparent;
 }
 
-.readmoreNews>a:hover {
-    color: #8684AB;
-}
-
-.readmoreNews>a.active {
-    text-decoration: none;
-    font-family: 'Geomanist';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-    text-transform: capitalize;
-    color: #4699FB;
-    margin-bottom: 0px;
-}
-
-.readmoreNews>a.active:hover {
+.readmoreNews>button:hover {
     color: #4699FB;
 }
 
-.readmoreNews>a>svg {
-    margin-left: 20px !important;
+
+.readmoreNews>button>svg {
+    margin-left: 20px;
     font-size: 13px;
 }
 
@@ -787,7 +820,7 @@ footer .container::after {
     content: '';
     background-color: #F12797;
     height: 1px;
-    width: 1200px;
+    width: 90%;
     display: block;
     margin: 25px auto 0px auto;
     opacity: 0.3;
@@ -826,24 +859,19 @@ footer .container::after {
     margin-bottom: 0px;
 }
 
-.footerSocialIcon a {
-    text-decoration: none;
+.footerSocialIcon button {
     color: #74729B;
     font-size: 18px;
+    background-color: transparent;
+    border: none;
 }
 
-.footerSocialIcon a svg:hover {
-    color: #F12797;
-}
-
-.footerSocialIcon .active svg {
+.footerSocialIcon button svg:hover {
     color: #F12797;
 }
 
 .footerSocialIcon svg {
     margin-right: 27px;
-    color: #74729B;
-
 }
 
 .footerList {
@@ -1023,9 +1051,7 @@ footer .container::after {
         height: 40px !important;
     }
 
-    footer .container::after {
-        width: 1000px;
-    }
+
 }
 
 @media(max-width : 1250px) {
@@ -1256,9 +1282,8 @@ footer .container::after {
 }
 
 @media(max-width: 1024px) {
-    footer .container::after {
-        width: 700px;
-    }
+
+
     .hamburger {
         display: block;
         float: right;
@@ -1270,13 +1295,18 @@ footer .container::after {
     }
 
     .mobile_menu_active {
-        position: absolute;
+        position: fixed;
         height: 100vh;
-        top: 52px;
+        width: 320px;
+        top: 0px;
         left: auto;
-        width: 50%;
         right: 0px;
-        background: currentColor;
+        /* -webkit-transition: all 0.5s; */
+        z-index: 9999999;
+        background-color: #F12797;
+        display: flex;
+        flex-direction: column;
+        right: 0;
     }
 
     .header_log {
@@ -1292,20 +1322,28 @@ footer .container::after {
         font-size: 35px;
         color: #F12797;
     }
-    .navbarMian{
-        margin-top: 50px;
+
+    .navbarMian {
+        margin-top: 30px;
+        text-align: end;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-right: 20px;
     }
-    .navbarMian .nav-link{
+
+    .navbarMian .nav-link {
         padding: 20px 0px;
         text-align: center;
         color: #fff;
     }
+
     .nav-link:hover {
-        color: #F12797;
+        color: #fff;
     }
-    
+
     .active {
-        color: #F12797;
+        color: #fff;
     }
 }
 
@@ -1451,10 +1489,16 @@ footer .container::after {
 }
 
 @media(max-width: 768px) {
-    
+    .searchBtn {
+        width: 70px;
+        height: 40px;
+    }
 }
 
 @media(max-width: 767px) {
+    .header_section {
+        background-position: bottom;
+    }
 
     .nav-link {
         font-size: 13px;
@@ -1583,7 +1627,6 @@ footer .container::after {
     }
 
     footer .container::after {
-        width: 400px;
         margin: 0px auto;
     }
 
@@ -1622,24 +1665,38 @@ footer .container::after {
 @media(max-width: 575px) {
     .header_log {
         width: 50%;
+        padding-top: 35px;
     }
+
+    header {
+        height: 60px;
+    }
+
+    .branTitleMain {
+        margin-top: 30px;
+    }
+
+    .branTitleMain>img {
+        display: none;
+    }
+
     .hamburger {
         margin-top: -37px;
+        margin-right: 10px;
     }
-    .mobile_menu_active {
-        top: 66px;
-        width: 70%;
-    }
+
     .brandTitle>span {
-        font-size: 42px;
+        font-size: 35px;
     }
 
     .brandTitle>p {
-        font-size: 37px;
+        font-size: 28px;
     }
-    .bankCard>span{
+
+    .bankCard>span {
         display: none;
     }
+
     .bankCard {
         margin-top: 45px;
         width: 89%;
@@ -1650,7 +1707,24 @@ footer .container::after {
     }
 
     .searchBtns {
-        margin-top: 20px;
+        margin-top: 30px;
+    }
+
+    .searchBtns {
+        justify-content: space-evenly;
+    }
+
+    .via_btn {
+        width: 81px;
+    }
+
+    .returnBtn {
+        width: 100px;
+    }
+
+    .searchBtn {
+        width: 60px;
+        height: 30px;
     }
 
     .Date_time {
@@ -1712,6 +1786,7 @@ footer .container::after {
 
     .newformobile {
         justify-content: space-between;
+        width: 100%;
     }
 
     .footer_part_one_mobile {
@@ -1734,102 +1809,131 @@ footer .container::after {
         width: 260px !important;
     }
 }
-@media(max-width: 425px){
+
+@media(max-width: 425px) {
+    .brandTitle>span {
+        font-size: 30px;
+    }
+
+    .brandTitle>p {
+        font-size: 22px;
+    }
+
+    .brandofer>p {
+        font-size: 13px;
+    }
+
     .css-1aquho2-MuiTabs-indicator {
         left: 7px !important;
     }
+
+
     .footermainSection {
-        background-color: #fff;
-        background-image: none; 
+        background: linear-gradient(to bottom, #faf9f9, #ebe6e7);
+
     }
+
     .footer_part_one_mobile {
         width: 100%;
     }
+
     .footer_part_two_mobile {
         width: 100%;
         margin-bottom: 25px;
         margin-left: 20px;
     }
+
     .footer_part_four_mobile {
         width: 100%;
         margin-left: 20px;
         margin-bottom: 20px;
     }
+
     footer .container::after {
-        width: 300px;
         margin: 0px auto;
     }
-    .swiper-button-prev, .swiper-rtl .swiper-button-next {
+
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
         left: 37% !important;
         right: auto !important;
     }
 }
-@media(max-width: 375px){
-    .branTitleMain>img {
-        display: none;
-    }
-    .brandTitle{
+
+@media(max-width: 375px) {
+
+
+    .brandTitle {
         width: 100%;
     }
-    .mobile_menu_active {
-        top: 66px;
-        width: 100%;
-    }
-    .css-1aquho2-MuiTabs-indicator{
+
+
+
+    .css-1aquho2-MuiTabs-indicator {
         left: 2px !important;
-    width: 73.062px;
+        width: 73.062px;
     }
-    .swiper-button-prev, .swiper-rtl .swiper-button-next {
+
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
         left: 34% !important;
     }
+
     .card {
         width: 90%;
     }
 }
-@media(max-width: 320px){
+
+@media(max-width: 320px) {
     .bankCard {
         margin-top: 45px;
         width: 100%;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
+
     .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
         padding: 12px 0px !important;
     }
+
     .css-8atqhb {
         padding: 30px 15px;
     }
+
     .journey_section_heading>p {
         font-size: 17px;
     }
+
     .cardMain {
         height: 100%;
         width: 100%;
         margin: 0px auto;
     }
+
     .texiTransferHeading>p {
         font-size: 22px;
         text-align: center;
     }
+
     .texiTransfertitle>p {
         font-size: 12px;
         text-align: center;
     }
+
     .about_us_Main>p {
         font-size: 21px;
         margin-bottom: 10px;
     }
+
     .swiper-button-next {
         right: 37% !important;
     }
-    .bankCard>span{
+
+    .bankCard>span {
         display: none;
     }
-    .bankCard a img{
+
+    .bankCard a img {
         margin-bottom: 20px;
     }
 }
-
-
-

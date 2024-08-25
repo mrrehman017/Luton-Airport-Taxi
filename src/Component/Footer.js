@@ -6,9 +6,9 @@ import { FaTwitter } from "react-icons/fa";
 import { RiPhoneLine } from "react-icons/ri";
 import { TbMail } from "react-icons/tb";
 import CopyRight from "./CopyRight";
-import {HashLink as Link} from 'react-router-hash-link'
+import { HashLink as Link } from "react-router-hash-link";
 
-export const Footer = () => {
+export const Footer = ({ scrollToTop }) => {
   return (
     <>
       <section className="footermainSection" id="Footer">
@@ -17,7 +17,7 @@ export const Footer = () => {
             <div className="row newformobile">
               <div className="col-lg-3 col-md-12 col-sm-6 footer_part_one_mobile">
                 <div className="footerPartOne">
-                  <Link to='#Header' className="footerLOGO">
+                  <Link to="/" onClick={scrollToTop} className="footerLOGO">
                     <img src={FooterLogo} alt="" />
                     <p>Lutonairporttaxi.co.uk</p>
                   </Link>
@@ -25,15 +25,15 @@ export const Footer = () => {
                     <p>960 Capability Green, Luton, Bedfordshire LU1 3PL.</p>
                   </div>
                   <div className="footerSocialIcon">
-                    <a href="/" activeclassname="active">
+                    <button activeclassname="active">
                       <FiFacebook />
-                    </a>
-                    <a href="/" className="active" activeclassname="active">
+                    </button>
+                    <button activeclassname="active">
                       <FaTwitter />
-                    </a>
-                    <a href="/" activeclassname="active">
+                    </button>
+                    <button activeclassname="active">
                       <FiInstagram />
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -44,13 +44,13 @@ export const Footer = () => {
                   </div>
                   <div className="footerListMenu">
                     <ul className="navbar">
-                      <Link className="nav-link-footer" activeclassname="active" to="#Header">
+                      <Link className="nav-link-footer" activeclassname="active" to="/" onClick={scrollToTop}>
                         Home
                       </Link>
                       <Link className="nav-link-footer" activeclassname="active" to="#AboutUs">
                         About Us
                       </Link>
-                      <Link className="nav-link-footer" activeclassname="active" to="#journey">
+                      <Link className="nav-link-footer" activeclassname="active" to="#Journey">
                         Our Fleet
                       </Link>
                       <Link className="nav-link-footer" activeclassname="active" to="#TexiTransfer">
@@ -99,14 +99,14 @@ export const Footer = () => {
                   </div>
                   <div className="footerListMenu">
                     <div className="IconNumberFooter">
-                        <RiPhoneLine />
+                      <RiPhoneLine />
                       <div className="footerNumbers">
                         <a href="tel:01582 292929">01582 292929</a>
                         <a href="tel:+00441582 292929">+00441582 292929</a>
                       </div>
                     </div>
                     <div className="iconMail">
-                        <TbMail />
+                      <TbMail />
                       <div className="footerMail">
                         <a href="mailto:Bookings@lutonairport.taxi">Bookings@lutonairport.taxi</a>
                       </div>
@@ -117,7 +117,7 @@ export const Footer = () => {
             </div>
           </div>
         </footer>
-        <CopyRight/>
+        <CopyRight />
       </section>
     </>
   );
